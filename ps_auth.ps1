@@ -21,17 +21,17 @@ $prefix = "[!] "
 
 # Define messages based on Windows language
 if ($windowsLanguage -eq "pt-BR" -or $windowsLanguage -eq "pt-PT") {
-    $warningMessage = $prefix + "Essa script apenas usa suas credenciais para autenticar no Parsec Soda. Suas credenciais nao serao salvas. \n Voce pode verificar o codigo fonte usando qualquer editor de texto. \n Sempre baixe o script em: https://github.com/luizhtss/ps-soda-auth" ;
+    $warningMessage = $prefix + "Essa script apenas usa suas credenciais para autenticar no Parsec Soda. Suas credenciais nao serao salvas. \n Voce pode verificar o codigo fonte usando qualquer editor de texto. Sempre baixe o script em: https://github.com/luizhtss/ps-soda-auth" ;
     $promptEmail = "Insira o seu email:"
     $promptPassword = "Insira a sua senha:"
-    $promptTFA = "Insira o seu TFA:"
+    $promptTFA = "Insira o seu TFA (Deixe em branco se não estiver ativo):"
     $successMessage = $prefix + "Autenticado com sucesso! Agora voce pode usar o Parsec Soda."
     $loginFailed = $prefix + "Falha ao autenticar"
 } else {
-    $warningMessage = $prefix + "This script just use your credentials to authenticate in Parsec Soda. Your credentials will not be saved. \n You can check the source code using any text editor. \n Always download the script at: https://github.com/luizhtss/ps-soda-auth";
+    $warningMessage = $prefix + "This script just use your credentials to authenticate in Parsec Soda. Your credentials will not be saved. \n You can check the source code using any text editor. Always download the script at: https://github.com/luizhtss/ps-soda-auth";
     $promptEmail = "Enter your email:"
     $promptPassword = "Enter your password:"
-    $promptTFA = "Enter your TFA:"
+    $promptTFA = "Enter your TFA (Leave blank if not active):"
     $successMessage = $prefix + "Authenticated successfully! Now you can use Parsec Soda."
     $loginFailed = $prefix + "Failed to authenticate"
 }
