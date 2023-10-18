@@ -1,7 +1,5 @@
 # Soda Authenticator Script
 
-This is a handy authentication script called **Soda Authenticator**, designed for seamless authentication in specific systems. Here's a step-by-step guide on how to use the script:
-
 ## Usage Instructions
 
 1. **Download the Script**
