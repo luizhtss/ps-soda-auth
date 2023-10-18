@@ -17,7 +17,7 @@
    - In PowerShell, navigate to the folder where the script is located.
    - Run the script using the following command:
      ```shell
-     .\soda-authenticator.ps1
+     .\ps_auth.ps1
      ```
 
 4. **Completion**
@@ -42,7 +42,7 @@
    - No PowerShell, navegue até a pasta onde o script está localizado.
    - Execute o script usando o comando:
      ```shell
-     .\soda-authenticator.ps1
+     .\ps_auth.ps1
      ```
 
 4. **Finalização**
